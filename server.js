@@ -2,6 +2,9 @@ var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 
+//i was also supposed to use handlebars, but i couldnt get my project to wrk with handlebars
+
+
 // Our scraping tools
 // Axios is a promised-based http library, similar to jQuery's Ajax method
 // It works on the client and on the server
