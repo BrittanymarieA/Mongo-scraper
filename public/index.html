@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scraping With Mongoose</title>
+  <style>
+    body {
+      background-color: lightcyan
+    }
+
+    #wrapper {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 5%;
+    }
+
+    #articles {
+      display: inline-block;
+      overflow: auto;
+      width: 70%;
+      height: 400px;
+      border-radius: 2%;
+      border: solid grey;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    #notes {
+      float: right;
+      width: 20%;
+    }
+
+    textarea,
+    input {
+      display: block;
+      width: 100%;
+      background-color: white;
+      border-radius: 2%;
+    }
+
+    input {
+      height: 25px;
+      font-size: 24px;
+      margin: 5px;
+      border-radius: 2%;
+    }
+
+    textarea {
+      height: 100px;
+      font-size: 18px;
+      margin: 5px;
+      border-radius: 2%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Articles</h1>
+    <div id="articles"></div>
+    <div id="notes"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
